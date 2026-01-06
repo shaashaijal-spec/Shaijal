@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shawarma Burgerlak Menu</title>
+<style>
+body {
+  background:#2a2a2a; /* dark grey background like Venngage template */
+  font-family: 'Georgia', serif; /* vintage serif feel */
+  color:#f5f5f5;
+  margin:0;
+  padding:0;
+}
+.menu{
+  width:1000px;
+  margin:auto;
+  padding:40px 50px;
+}
+.logo{
+  text-align:center;
+  margin-bottom:30px;
+}
+.logo img{
+  max-height:90px;
+  margin-bottom:10px;
+}
+.logo h1{
+  font-size:42px;
+  color:#f5b400; /* golden accent */
+  margin-bottom:5px;
+}
+.logo h2{
+  font-size:22px;
+  margin:0;
+  color:#f5b400;
+}
+.logo p{
+  font-size:16px;
+  color:#f5b400;
+  margin-top:5px;
+}
+.section{
+  margin-top:30px;
+}
+.section h3{
+  color:#f5b400;
+  font-size:24px;
+  margin-top:30px;
+  margin-bottom:10px;
+  border-bottom:1px solid #f5b400;
+  padding-bottom:4px;
+}
+.row{
+  display:grid;
+  grid-template-columns: 1fr 100px 1fr;
+  align-items:center;
+  margin:8px 0;
+  font-size:16px;
+}
+.en{text-align:left;}
+.price{text-align:center; color:#f5b400; font-weight:bold;}
+.ar{text-align:right; direction:rtl;}
+.footer{
+  margin-top:40px;
+  text-align:center;
+  color:#f5b400;
+  font-size:14px;
+}
+</style>
+</head>
+<body>
+
+<div class="menu">
+
+  <!-- LOGO & SHOP NAME -->
+  <div class="logo">
+    <img src="logo.png" alt="Shop Logo">
+    <h1>SHAWARMA BURGERLAK</h1>
+    <h2>شاورما وبرجرلك</h2>
+    <p>Contact: 055-XXXXXXX</p>
+  </div>
+
+  <!-- SHAWARMA -->
+  <div class="section">
+    <h3>SHAWARMA 🌯</h3>
+    <div class="row"><div class="en">SHAWARMA SMALL</div><div class="price">7.00</div><div class="ar">شاورما صغير</div></div>
+    <div class="row"><div class="en">SHAWARMA SMALL CHEESE</div><div class="price">8.00</div><div class="ar">شاورما صغير جبنة</div></div>
+    <div class="row"><div class="en">SHAWARMA SARUKH</div><div class="price">8.00</div><div class="ar">شاورما صاروخ</div></div>
+    <div class="row"><div class="en">SHAWARMA SARUKH CHEESE</div><div class="price">9.00</div><div class="ar">شاورما صاروخ جبنة</div></div>
+    <div class="row"><div class="en">SHAWARMA ARABI SMALL</div><div class="price">11.00</div><div class="ar">صحن شاورما عربي صغير</div></div>
+    <div class="row"><div class="en">SHAWARMA ARABI SM CHEESE</div><div class="price">12.00</div><div class="ar">صحن شاورما عربي صغير جبنة</div></div>
+    <div class="row"><div class="en">SHAWARMA ARABI BIG</div><div class="price">16.00</div><div class="ar">صحن شاورما عربي كبير</div></div>
+    <div class="row"><div class="en">SHAWARMA ARABI BIG CHEESE</div><div class="price">18.00</div><div class="ar">صحن شاورما عربي كبير جبنة</div></div>
+    <div class="row"><div class="en">SHAWARMA BOSHKA</div><div class="price">19.00</div><div class="ar">شاورما بوشكا</div></div>
+    <div class="row"><div class="en">SHAWARMA BOSHKA CHEESE</div><div class="price">21.00</div><div class="ar">شاورما بوشكا جبنة</div></div>
+  </div>
+
+  <!-- BURGER -->
+  <div class="section">
+    <h3>BURGER 🍔</h3>
+    <div class="row"><div class="en">CHICKEN BURGER</div><div class="price">8.00</div><div class="ar">برجر دجاج</div></div>
+    <div class="row"><div class="en">CHICKEN BURGER CHEESE</div><div class="price">9.00</div><div class="ar">برجر دجاج جبنة</div></div>
+    <div class="row"><div class="en">CHICKEN BURGER DOUBLE</div><div class="price">13.00</div><div class="ar">دجاج برجر دبل</div></div>
+    <div class="row"><div class="en">CHICKEN BRGR DBL CHEESE</div><div class="price">14.00</div><div class="ar">برجر دجاج دبل جبنة</div></div>
+    <div class="row"><div class="en">BEEF BURGER</div><div class="price">8.00</div><div class="ar">برجر لحم</div></div>
+    <div class="row"><div class="en">BEEF BURGER CHEESE</div><div class="price">9.00</div><div class="ar">برجر لحم جبنة</div></div>
+    <div class="row"><div class="en">BEEF BURGER DOUBLE</div><div class="price">13.00</div><div class="ar">برجر لحم دبل</div></div>
+    <div class="row"><div class="en">BEEF BRGR DBL CHEES</div><div class="price">14.00</div><div class="ar">برجر لحم دبل جبنة</div></div>
+    <div class="row"><div class="en">FISH BURGER</div><div class="price">9.00</div><div class="ar">برجر سمك</div></div>
+    <div class="row"><div class="en">FISH BURGER CHEESE</div><div class="price">10.00</div><div class="ar">برجر سمك جبنة</div></div>
+    <div class="row"><div class="en">FISH BURGER DOUBLE</div><div class="price">15.00</div><div class="ar">برجر سمك دبل</div></div>
+    <div class="row"><div class="en">FISH BURGER DBL CHEESE</div><div class="price">17.00</div><div class="ar">برجر سمك دبل جبنة</div></div>
+    <div class="row"><div class="en">ZINGER BURGER</div><div class="price">11.50</div><div class="ar">برجر زنجر</div></div>
+    <div class="row"><div class="en">ZINGER BURGER CHEESE</div><div class="price">12.50</div><div class="ar">برجر زنجر جبنة</div></div>
+    <div class="row"><div class="en">ZINGER BURGER DOUBLE</div><div class="price">19.50</div><div class="ar">برجر زنجردبل</div></div>
+    <div class="row"><div class="en">ZINGER BURGER DOUBLE CHEESE</div><div class="price">20.50</div><div class="ar">برجر زنجردبل جبنة</div></div>
+  </div>
+
+  <!-- SANDWICHES -->
+  <div class="section">
+    <h3>SANDWICHES 🥪</h3>
+    <div class="row"><div class="en">NUGGETS SANDWITCH</div><div class="price">9.00</div><div class="ar">ساندوتش دجاج مسحب</div></div>
+    <div class="row"><div class="en">NUGGETS SANDWITCH CHEESE</div><div class="price">10.00</div><div class="ar">ساندوتش دجاج مسحب جبنة</div></div>
+    <div class="row"><div class="en">SHRIMPS SANDWITCH</div><div class="price">9.00</div><div class="ar">ساندوتش جمبري</div></div>
+    <div class="row"><div class="en">SHRIMPS SANDWITCH CHEESE</div><div class="price">10.00</div><div class="ar">ساندوتش جمبري جبنة</div></div>
+    <div class="row"><div class="en">CHICKEN FILLETS SANDWITCH</div><div class="price">9.00</div><div class="ar">ساندوتش دجاج فيلية</div></div>
+    <div class="row"><div class="en">CHICKEN FILLETS SANDWITCH CHEESE</div><div class="price">10.00</div><div class="ar">ساندوتش دجاج فيلية جبنة</div></div>
+    <div class="row"><div class="en">TORTILLA SANDWITCH</div><div class="price">10.00</div><div class="ar">ساندوتش تورتيلا</div></div>
+    <div class="row"><div class="en">TORTILLA SANDWITCH CHEESE</div><div class="price">11.00</div><div class="ar">سندويش تورتيلا جبنة</div></div>
+    <div class="row"><div class="en">SANDWITCH ZINGER</div><div class="price">11.50</div><div class="ar">ساندوتش زنجر</div></div>
+    <div class="row"><div class="en">SANDWITCH ZINGER CHEESE</div><div class="price">12.50</div><div class="ar">ساندوتش زنجر جبنة</div></div>
+    <div class="row"><div class="en">SHRIMPS TANDOORI SANDWITCH</div><div class="price">9.00</div><div class="ar">ساندوتش جمبري تندوري</div></div>
+    <div class="row"><div class="en">SHRIMPS TANDOORI CHEESE</div><div class="price">10.00</div><div class="ar">ساندوتش جمبري تندوري جبنة</div></div>
+    <div class="row"><div class="en">FISH SANDWITCH</div><div class="price">9.00</div><div class="ar">ساندوتش سمك</div></div>
+    <div class="row"><div class="en">FISH SANDWITCH CHEESE</div><div class="price">10.00</div><div class="ar">ساندوتش سمك جبنة</div></div>
+  </div>
+
+  <!-- MEALS & PLATES -->
+  <div class="section">
+    <h3>MEALS & PLATES 🍽️</h3>
+    <div class="row"><div class="en">CHICKEN NUGGETS PLATE</div><div class="price">20.00</div><div class="ar">دجاج مسحب صحن</div></div>
+    <div class="row"><div class="en">CHICKEN FILLETS PLATE</div><div class="price">20.00</div><div class="ar">دجاج فيلية صحن</div></div>
+    <div class="row"><div class="en">SHRIMPS PLATE</div><div class="price">20.00</div><div class="ar">جمبري صحن</div></div>
+    <div class="row"><div class="en">FISH BROAST</div><div class="price">19.00</div><div class="ar">بروست سمك</div></div>
+    <div class="row"><div class="en">CHICKEN BURGER MEAL</div><div class="price">14.50</div><div class="ar">برجر دجاج وجبة</div></div>
+    <div class="row"><div class="en">CHICKEN BURGER CHEESE MEAL</div><div class="price">15.50</div><div class="ar">برجر دجاج جبنة وجبة</div></div>
+    <div class="row"><div class="en">BRGR DBL CHICKEN MEAL</div><div class="price">19.50</div><div class="ar">برجر دبل دجاج وجبة</div></div>
+    <div class="row"><div class="en">BRGR DBL CHICKEN CHEES MEAL</div><div class="price">20.50</div><div class="ar">برجر دبل دجاج جبنة وجبة</div></div>
+    <div class="row"><div class="en">BEEF BURGER MEAL</div><div class="price">14.50</div><div class="ar">برجر لحم وجبة</div></div>
+    <div class="row"><div class="en">BEEF BURGER CHEESE MEAL</div><div class="price">15.50</div><div class="ar">برجر لحم جبنة وجبة</div></div>
+    <div class="row"><div class="en">BRGR DBL BEEF MEAL</div><div class="price">19.50</div><div class="ar">برجر دبل لحم وجبة</div></div>
+    <div class="row"><div class="en">BRGR DBL BEEF CHEES MEAL</div><div class="price">20.50</div><div class="ar">برجر دبل لحم جبنة وجبة</div></div>
+    <div class="row"><div class="en">ZINGER BURGER MEAL</div><div class="price">18.00</div><div class="ar">برجر زنجر وجبة</div></div>
+    <div class="row"><div class="en">ZINGER BURGER CHEESE MEAL</div><div class="price">19.00</div><div class="ar">برجر زنجر جبنة وجبة</div></div>
+    <div class="row"><div class="en">ZINGER BURGER DBL MEAL</div><div class="price">26.00</div><div class="ar">برجر زنجردبل وجبة</div></div>
+    <div class="row"><div class="en">ZINGER BURGER DBL CHEES MEAL</div><div class="price">27.00</div><div class="ar">برجر زنجر دبل جبنة وجبة</div></div>
+    <div class="row"><div class="en">FISH BURGER MEAL</div><div class="price">15.50</div><div class="ar">برجر سمك وجبة</div></div>
+    <div class="row"><div class="en">FISH BURGER CHEESE MEAL</div><div class="price">16.50</div><div class="ar">برجر سمك جبنة وجبة</div></div>
+    <div class="row"><div class="en">TORTILLA MEAL</div><div class="price">16.50</div><div class="ar">تورتيلا وجبة</div></div>
+    <div class="row"><div class="en">TORTILLA MEAL CHEESE</div><div class="price">17.50</div><div class="ar">تورتيلا جبنة وجبة</div></div>
+  </div>
+
+  <div class="footer">
+    Calories are average estimates per SFDA guidelines • Contact: 055-XXXXXXX
+  </div>
+
+</div>
+
+</body>
+</html>
